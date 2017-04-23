@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1035BA971E8ED557003522E8 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1035BA961E8ED557003522E8 /* View1.swift */; };
+		10A457851E84555400A6E782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A457841E84555400A6E782 /* AppDelegate.swift */; };
+		10A457871E84555400A6E782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A457861E84555400A6E782 /* ViewController.swift */; };
+		10A4578A1E84555400A6E782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A457881E84555400A6E782 /* Main.storyboard */; };
+		10A4578C1E84555400A6E782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A4578B1E84555400A6E782 /* Assets.xcassets */; };
+		10A4578F1E84555400A6E782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A4578D1E84555400A6E782 /* LaunchScreen.storyboard */; };
+		10A4579A1E84555500A6E782 /* _DA_EVA_8_PassPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A457991E84555500A6E782 /* _DA_EVA_8_PassPickerTests.swift */; };
+		10A457A51E84555500A6E782 /* _DA_EVA_8_PassPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A457A41E84555500A6E782 /* _DA_EVA_8_PassPickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10A457961E84555500A6E782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10A457791E84555400A6E782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A457801E84555400A6E782;
+			remoteInfo = 2DA_EVA_8_PassPicker;
+		};
+		10A457A11E84555500A6E782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10A457791E84555400A6E782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A457801E84555400A6E782;
+			remoteInfo = 2DA_EVA_8_PassPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1035BA961E8ED557003522E8 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		10A457811E84555400A6E782 /* 2DA_EVA_8_PassPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2DA_EVA_8_PassPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A457841E84555400A6E782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10A457861E84555400A6E782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10A457891E84555400A6E782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10A4578B1E84555400A6E782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A4578E1E84555400A6E782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10A457901E84555400A6E782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A457951E84555500A6E782 /* 2DA_EVA_8_PassPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2DA_EVA_8_PassPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A457991E84555500A6E782 /* _DA_EVA_8_PassPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DA_EVA_8_PassPickerTests.swift; sourceTree = "<group>"; };
+		10A4579B1E84555500A6E782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A457A01E84555500A6E782 /* 2DA_EVA_8_PassPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2DA_EVA_8_PassPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A457A41E84555500A6E782 /* _DA_EVA_8_PassPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DA_EVA_8_PassPickerUITests.swift; sourceTree = "<group>"; };
+		10A457A61E84555500A6E782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A4577E1E84555400A6E782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A457921E84555500A6E782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A4579D1E84555500A6E782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A457781E84555400A6E782 = {
+			isa = PBXGroup;
+			children = (
+				10A457831E84555400A6E782 /* 2DA_EVA_8_PassPicker */,
+				10A457981E84555500A6E782 /* 2DA_EVA_8_PassPickerTests */,
+				10A457A31E84555500A6E782 /* 2DA_EVA_8_PassPickerUITests */,
+				10A457821E84555400A6E782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A457821E84555400A6E782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A457811E84555400A6E782 /* 2DA_EVA_8_PassPicker.app */,
+				10A457951E84555500A6E782 /* 2DA_EVA_8_PassPickerTests.xctest */,
+				10A457A01E84555500A6E782 /* 2DA_EVA_8_PassPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A457831E84555400A6E782 /* 2DA_EVA_8_PassPicker */ = {
+			isa = PBXGroup;
+			children = (
+				10A457841E84555400A6E782 /* AppDelegate.swift */,
+				10A457861E84555400A6E782 /* ViewController.swift */,
+				10A457881E84555400A6E782 /* Main.storyboard */,
+				10A4578B1E84555400A6E782 /* Assets.xcassets */,
+				10A4578D1E84555400A6E782 /* LaunchScreen.storyboard */,
+				10A457901E84555400A6E782 /* Info.plist */,
+				1035BA961E8ED557003522E8 /* View1.swift */,
+			);
+			path = 2DA_EVA_8_PassPicker;
+			sourceTree = "<group>";
+		};
+		10A457981E84555500A6E782 /* 2DA_EVA_8_PassPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				10A457991E84555500A6E782 /* _DA_EVA_8_PassPickerTests.swift */,
+				10A4579B1E84555500A6E782 /* Info.plist */,
+			);
+			path = 2DA_EVA_8_PassPickerTests;
+			sourceTree = "<group>";
+		};
+		10A457A31E84555500A6E782 /* 2DA_EVA_8_PassPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10A457A41E84555500A6E782 /* _DA_EVA_8_PassPickerUITests.swift */,
+				10A457A61E84555500A6E782 /* Info.plist */,
+			);
+			path = 2DA_EVA_8_PassPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A457801E84555400A6E782 /* 2DA_EVA_8_PassPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A457A91E84555500A6E782 /* Build configuration list for PBXNativeTarget "2DA_EVA_8_PassPicker" */;
+			buildPhases = (
+				10A4577D1E84555400A6E782 /* Sources */,
+				10A4577E1E84555400A6E782 /* Frameworks */,
+				10A4577F1E84555400A6E782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2DA_EVA_8_PassPicker;
+			productName = 2DA_EVA_8_PassPicker;
+			productReference = 10A457811E84555400A6E782 /* 2DA_EVA_8_PassPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10A457941E84555500A6E782 /* 2DA_EVA_8_PassPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A457AC1E84555500A6E782 /* Build configuration list for PBXNativeTarget "2DA_EVA_8_PassPickerTests" */;
+			buildPhases = (
+				10A457911E84555500A6E782 /* Sources */,
+				10A457921E84555500A6E782 /* Frameworks */,
+				10A457931E84555500A6E782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10A457971E84555500A6E782 /* PBXTargetDependency */,
+			);
+			name = 2DA_EVA_8_PassPickerTests;
+			productName = 2DA_EVA_8_PassPickerTests;
+			productReference = 10A457951E84555500A6E782 /* 2DA_EVA_8_PassPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10A4579F1E84555500A6E782 /* 2DA_EVA_8_PassPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A457AF1E84555500A6E782 /* Build configuration list for PBXNativeTarget "2DA_EVA_8_PassPickerUITests" */;
+			buildPhases = (
+				10A4579C1E84555500A6E782 /* Sources */,
+				10A4579D1E84555500A6E782 /* Frameworks */,
+				10A4579E1E84555500A6E782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10A457A21E84555500A6E782 /* PBXTargetDependency */,
+			);
+			name = 2DA_EVA_8_PassPickerUITests;
+			productName = 2DA_EVA_8_PassPickerUITests;
+			productReference = 10A457A01E84555500A6E782 /* 2DA_EVA_8_PassPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A457791E84555400A6E782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					10A457801E84555400A6E782 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					10A457941E84555500A6E782 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 10A457801E84555400A6E782;
+					};
+					10A4579F1E84555500A6E782 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 10A457801E84555400A6E782;
+					};
+				};
+			};
+			buildConfigurationList = 10A4577C1E84555400A6E782 /* Build configuration list for PBXProject "2DA_EVA_8_PassPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A457781E84555400A6E782;
+			productRefGroup = 10A457821E84555400A6E782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A457801E84555400A6E782 /* 2DA_EVA_8_PassPicker */,
+				10A457941E84555500A6E782 /* 2DA_EVA_8_PassPickerTests */,
+				10A4579F1E84555500A6E782 /* 2DA_EVA_8_PassPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A4577F1E84555400A6E782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A4578F1E84555400A6E782 /* LaunchScreen.storyboard in Resources */,
+				10A4578C1E84555400A6E782 /* Assets.xcassets in Resources */,
+				10A4578A1E84555400A6E782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A457931E84555500A6E782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A4579E1E84555500A6E782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A4577D1E84555400A6E782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A457871E84555400A6E782 /* ViewController.swift in Sources */,
+				1035BA971E8ED557003522E8 /* View1.swift in Sources */,
+				10A457851E84555400A6E782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A457911E84555500A6E782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A4579A1E84555500A6E782 /* _DA_EVA_8_PassPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A4579C1E84555500A6E782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A457A51E84555500A6E782 /* _DA_EVA_8_PassPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10A457971E84555500A6E782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A457801E84555400A6E782 /* 2DA_EVA_8_PassPicker */;
+			targetProxy = 10A457961E84555500A6E782 /* PBXContainerItemProxy */;
+		};
+		10A457A21E84555500A6E782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A457801E84555400A6E782 /* 2DA_EVA_8_PassPicker */;
+			targetProxy = 10A457A11E84555500A6E782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10A457881E84555400A6E782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A457891E84555400A6E782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10A4578D1E84555400A6E782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A4578E1E84555400A6E782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10A457A71E84555500A6E782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10A457A81E84555500A6E782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A457AA1E84555500A6E782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2DA_EVA_8_PassPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tec2.-DA-EVA-8-PassPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10A457AB1E84555500A6E782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2DA_EVA_8_PassPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tec2.-DA-EVA-8-PassPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10A457AD1E84555500A6E782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 2DA_EVA_8_PassPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tec2.-DA-EVA-8-PassPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2DA_EVA_8_PassPicker.app/2DA_EVA_8_PassPicker";
+			};
+			name = Debug;
+		};
+		10A457AE1E84555500A6E782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 2DA_EVA_8_PassPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tec2.-DA-EVA-8-PassPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2DA_EVA_8_PassPicker.app/2DA_EVA_8_PassPicker";
+			};
+			name = Release;
+		};
+		10A457B01E84555500A6E782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 2DA_EVA_8_PassPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tec2.-DA-EVA-8-PassPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 2DA_EVA_8_PassPicker;
+			};
+			name = Debug;
+		};
+		10A457B11E84555500A6E782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 2DA_EVA_8_PassPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tec2.-DA-EVA-8-PassPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 2DA_EVA_8_PassPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A4577C1E84555400A6E782 /* Build configuration list for PBXProject "2DA_EVA_8_PassPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A457A71E84555500A6E782 /* Debug */,
+				10A457A81E84555500A6E782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A457A91E84555500A6E782 /* Build configuration list for PBXNativeTarget "2DA_EVA_8_PassPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A457AA1E84555500A6E782 /* Debug */,
+				10A457AB1E84555500A6E782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A457AC1E84555500A6E782 /* Build configuration list for PBXNativeTarget "2DA_EVA_8_PassPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A457AD1E84555500A6E782 /* Debug */,
+				10A457AE1E84555500A6E782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A457AF1E84555500A6E782 /* Build configuration list for PBXNativeTarget "2DA_EVA_8_PassPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A457B01E84555500A6E782 /* Debug */,
+				10A457B11E84555500A6E782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A457791E84555400A6E782 /* Project object */;
+}

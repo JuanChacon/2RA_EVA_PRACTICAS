@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MmL-L7-u7u">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_DA_EVA_8_PassPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aw5-O7-JUT">
+                                <rect key="frame" x="25" y="169" width="560" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="HRP-EZ-wdm"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ama-JP-JMv"/>
+                                </connections>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Zn-vx-JNA">
+                                <rect key="frame" x="145" y="94" width="429" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOw-ye-xUc">
+                                <rect key="frame" x="39" y="98" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Zn-vx-JNA" secondAttribute="trailing" constant="6" id="A0T-Lw-uiv"/>
+                            <constraint firstItem="Aw5-O7-JUT" firstAttribute="top" secondItem="1Zn-vx-JNA" secondAttribute="bottom" constant="45" id="Mj8-nO-Ylr"/>
+                            <constraint firstItem="1Zn-vx-JNA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="PHY-mU-Cgz"/>
+                            <constraint firstItem="Aw5-O7-JUT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="VxO-3i-dPH"/>
+                            <constraint firstItem="Aw5-O7-JUT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="105" id="eAi-99-0c4"/>
+                            <constraint firstItem="jOw-ye-xUc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="fri-JB-DMK"/>
+                            <constraint firstItem="Aw5-O7-JUT" firstAttribute="leading" secondItem="jOw-ye-xUc" secondAttribute="trailing" constant="-112" id="gdW-yG-GY6"/>
+                            <constraint firstItem="jOw-ye-xUc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="34" id="hD9-fd-l6i"/>
+                            <constraint firstItem="1Zn-vx-JNA" firstAttribute="leading" secondItem="jOw-ye-xUc" secondAttribute="trailing" constant="8" id="hQs-ee-akf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Aw5-O7-JUT" secondAttribute="trailing" constant="-5" id="pqG-KX-QoH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jC6-Ls-hxw"/>
+                    <connections>
+                        <outlet property="TxtPass" destination="1Zn-vx-JNA" id="uMT-nx-5d2"/>
+                        <outlet property="picke" destination="Aw5-O7-JUT" id="fAe-IS-BcO"/>
+                        <segue destination="S0w-2H-ef3" kind="show" identifier="View1" id="7ty-Mr-NbG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1350" y="-43"/>
+        </scene>
+        <!--View1-->
+        <scene sceneID="2yC-Ni-aPQ">
+            <objects>
+                <viewController id="S0w-2H-ef3" customClass="View1" customModule="_DA_EVA_8_PassPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="srS-KV-yXH"/>
+                        <viewControllerLayoutGuide type="bottom" id="bUM-yM-Izc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2bi-Aq-6h2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MustangRojo2011" translatesAutoresizingMaskIntoConstraints="NO" id="znh-hE-Ijw">
+                                <rect key="frame" x="174" y="236" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="S0I-MO-S5x"/>
+                                    <constraint firstAttribute="width" constant="240" id="obu-Zh-eFV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPi-v9-WLn">
+                                <rect key="frame" x="279" y="432" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="znh-hE-Ijw" firstAttribute="centerY" secondItem="2bi-Aq-6h2" secondAttribute="centerY" id="6sb-4e-3xc"/>
+                            <constraint firstItem="wPi-v9-WLn" firstAttribute="centerX" secondItem="2bi-Aq-6h2" secondAttribute="centerX" id="Rv7-Y8-MgM"/>
+                            <constraint firstItem="znh-hE-Ijw" firstAttribute="centerX" secondItem="2bi-Aq-6h2" secondAttribute="centerX" constant="-6" id="YRX-jJ-rZc"/>
+                            <constraint firstItem="wPi-v9-WLn" firstAttribute="top" secondItem="znh-hE-Ijw" secondAttribute="bottom" constant="68" id="sCM-Tt-tgE"/>
+                            <constraint firstItem="bUM-yM-Izc" firstAttribute="top" secondItem="wPi-v9-WLn" secondAttribute="bottom" constant="147" id="ynI-ee-jFz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgVie" destination="znh-hE-Ijw" id="Kac-ts-ffQ"/>
+                        <outlet property="txtInfo" destination="wPi-v9-WLn" id="6Pc-45-4zk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RHk-01-AZo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="867" y="736"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wlT-dI-aWL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MmL-L7-u7u" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iDg-08-xse">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tw7-6Z-yvo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iu0-cy-erH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="-43"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MustangRojo2011" width="400" height="252"/>
+    </resources>
+</document>
